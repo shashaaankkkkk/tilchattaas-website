@@ -8,7 +8,7 @@ const TeamSection = () => {
       name: 'Anshul Singh Chauhan',
       role: 'Co-Founder & CTO',
       background: 'bg-green-200',
-      image: 'src/assets/nabalik.png',
+      image: 'https://i.ibb.co/F828Qrj/nabalik.png',
       socials: {
         facebook: '#',
         instagram: '#',
@@ -19,7 +19,7 @@ const TeamSection = () => {
       name: 'Satturiyaaa',
       role: 'Founder & CEO',
       background: 'bg-orange-200',
-      image: 'src/assets/sattu.png',
+      image: 'https://i.ibb.co/C58jjM6/IMG-3882-removebg-preview.png',
       socials: {
         instagram: '#',
         linkedin: '#'
@@ -29,7 +29,7 @@ const TeamSection = () => {
       name: 'Shashank Shekhar',
       role: 'Choder kumar',
       background: 'bg-purple-200',
-      image: 'src/assets/choder.png',
+      image: 'https://i.ibb.co/TWKfJjP/CHODER.png',
       socials: {
         facebook: '#',
         instagram: '#',
