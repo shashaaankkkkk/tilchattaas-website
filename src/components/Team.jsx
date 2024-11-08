@@ -3,22 +3,12 @@ import { Linkedin, Facebook, Instagram } from 'lucide-react';
 
 const TeamSection = () => {
   const teamMembers = [
+
     {
-      name: 'Jonathan Siuuu',
-      role: 'Founder & CEO',
-      background: 'bg-orange-200',
-      image: '/api/placeholder/400/500',
-      socials: {
-        facebook: '#',
-        instagram: '#',
-        linkedin: '#'
-      }
-    },
-    {
-      name: 'Jovanca Azalea',
+      name: 'Anshul Singh Chauhan',
       role: 'Co-Founder & CTO',
       background: 'bg-green-200',
-      image: '/api/placeholder/400/500',
+      image: 'src/assets/nabalik.png',
       socials: {
         facebook: '#',
         instagram: '#',
@@ -26,10 +16,20 @@ const TeamSection = () => {
       }
     },
     {
-      name: 'Boy Rakabuming',
-      role: 'Co-Founder & CMO',
+      name: 'Satturiyaaa',
+      role: 'Founder & CEO',
+      background: 'bg-orange-200',
+      image: 'src/assets/sattu.png',
+      socials: {
+        instagram: '#',
+        linkedin: '#'
+      }
+    },
+    {
+      name: 'Shashank Shekhar',
+      role: 'Choder kumar',
       background: 'bg-purple-200',
-      image: '/api/placeholder/400/500',
+      image: 'src/assets/choder.png',
       socials: {
         facebook: '#',
         instagram: '#',
@@ -80,17 +80,14 @@ const TeamSection = () => {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-72 object-cover rounded-lg mb-4"
+                      className="w-full h-72 left-7 object-cover rounded-lg mb-4"
                     />
                     <div className="p-2">
-                      <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
+                      <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
                       <p className="text-gray-600">{member.role}</p>
                       
                       {/* Social Icons */}
                       <div className="flex gap-4 mt-3">
-                        <a href={member.socials.facebook} className="text-gray-600 hover:text-gray-900">
-                          <Facebook size={20} />
-                        </a>
                         <a href={member.socials.instagram} className="text-gray-600 hover:text-gray-900">
                           <Instagram size={20} />
                         </a>
