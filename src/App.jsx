@@ -9,6 +9,7 @@ import Features from './components/Features'
 import HowItWorks from './components/Works'
 import Testi from './components/Testi'
 import Action from './components/Action'
+import TeamSection from './components/Team'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,6 +20,7 @@ function App() {
    <Integration></Integration>
    <HowItWorks/>
     <Testi/>
+    <TeamSection/>
 
     </>
   )
