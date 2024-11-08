@@ -19,7 +19,7 @@ function App() {
    <Integration></Integration>
    <HowItWorks/>
     <Testi/>
-    <Action/>
+
     </>
   )
 }
