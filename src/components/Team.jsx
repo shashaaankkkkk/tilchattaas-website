@@ -22,8 +22,8 @@ const TeamSection = () => {
       image: 'https://i.ibb.co/Sxwbyf5/Untitled-design-3.png',
       socials: {
         Github:'https://github.com/sattusupcodes',
-        instagram: '',
-        linkedin: ''
+        instagram: 'https://www.instagram.com/sattusup_xo',
+        linkedin: 'https://www.linkedin.com/in/shatakshi-singh-391177283/'
       }
     },
     {
