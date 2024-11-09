@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Facebook, Instagram } from 'lucide-react';
+import { Linkedin, Facebook, Instagram , GithubIcon } from 'lucide-react';
 
 const TeamSection = () => {
   const teamMembers = [
@@ -10,30 +10,31 @@ const TeamSection = () => {
       background: 'bg-green-200',
       image: 'https://i.ibb.co/F828Qrj/nabalik.png',
       socials: {
-        facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        Github: 'https://github.com/Anshul-exe',
+        instagram: 'https://www.instagram.com/anshulfml/',
+        linkedin: 'https://www.linkedin.com/in/anshulsinghchauhan/'
       }
     },
     {
-      name: 'Satturiyaaa',
+      name: 'Shatakshi Singh',
       role: 'Founder & CEO',
       background: 'bg-orange-200',
-      image: 'https://i.ibb.co/C58jjM6/IMG-3882-removebg-preview.png',
+      image: 'https://i.ibb.co/Sxwbyf5/Untitled-design-3.png',
       socials: {
-        instagram: '#',
-        linkedin: '#'
+        Github:'https://github.com/sattusupcodes',
+        instagram: '',
+        linkedin: ''
       }
     },
     {
       name: 'Shashank Shekhar',
-      role: 'Choder kumar',
+      role: 'Co-Founder & CMO',
       background: 'bg-purple-200',
       image: 'https://i.ibb.co/TWKfJjP/CHODER.png',
       socials: {
-        facebook: '#',
-        instagram: '#',
-        linkedin: '#'
+        Github: 'https://github.com/shashaaankkkkk',
+        linkedin: 'https://www.linkedin.com/in/shashaaankkkkk/',
+        instagram: 'https://instagram.com/shashaaankkkkk'
       }
     }
   ];
@@ -87,12 +88,15 @@ const TeamSection = () => {
                       <p className="text-gray-600">{member.role}</p>
                       
                       {/* Social Icons */}
-                      <div className="flex gap-4 mt-3">
-                        <a href={member.socials.instagram} className="text-gray-600 hover:text-gray-900">
+                      <div className="flex gap-4 mt-3"> 
+                        <a href={member.socials.instagram} target="_blank" className="text-gray-600 hover:text-gray-900">
                           <Instagram size={20} />
                         </a>
-                        <a href={member.socials.linkedin} className="text-gray-600 hover:text-gray-900">
+                        <a href={member.socials.linkedin} target="_blank" className="text-gray-600 hover:text-gray-900">
                           <Linkedin size={20} />
+                        </a>
+                        <a href={member.socials.Github} target="_blank" className="text-gray-600 hover:text-gray-900">
+                          <GithubIcon size={20} />
                         </a>
                       </div>
                     </div>

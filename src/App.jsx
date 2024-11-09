@@ -11,7 +11,7 @@ import Testi from './components/Testi'
 import Action from './components/Action'
 import TeamSection from './components/Team'
 import RotatingSkills from './components/GhumtiChakri'
-
+import Footer from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,7 +25,7 @@ function App() {
    <HowItWorks/>
     <Testi/>
     <TeamSection/>
-
+    <Footer></Footer>
     </>
   )
 }
