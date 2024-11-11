@@ -6,8 +6,9 @@ const TeamSection = () => {
 
     {
       name: 'Anshul Singh Chauhan',
-      role: 'Co-Founder & CTO',
+      role: 'CTO & Tech Ka Thanos',
       background: 'bg-green-200',
+      subline:"Making tech easier than making chai",
       image: 'https://i.ibb.co/F828Qrj/nabalik.png',
       socials: {
         Github: 'https://github.com/Anshul-exe',
@@ -17,8 +18,9 @@ const TeamSection = () => {
     },
     {
       name: 'Shatakshi Singh',
-      role: 'Founder & CEO',
+      role: 'CEO & Vision Ki Queen',
       background: 'bg-orange-200',
+      subline:"Leading with tech, scaling with love",
       image: 'https://i.ibb.co/Sxwbyf5/Untitled-design-3.png',
       socials: {
         Github:'https://github.com/sattusupcodes',
@@ -28,8 +30,9 @@ const TeamSection = () => {
     },
     {
       name: 'Shashank Shekhar',
-      role: 'Co-Founder & CMO',
+      role: 'CMO & Marketing Ka Marvel',
       background: 'bg-purple-200',
+      subline:"Converting leads faster than converting INR to USD",
       image: 'https://i.ibb.co/TWKfJjP/CHODER.png',
       socials: {
         Github: 'https://github.com/shashaaankkkkk',
@@ -86,6 +89,7 @@ const TeamSection = () => {
                     <div className="p-2">
                       <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
                       <p className="text-gray-600">{member.role}</p>
+                      <p className="text-gray-600 font-mono" >{member.subline}</p>
                       
                       {/* Social Icons */}
                       <div className="flex gap-4 mt-3"> 

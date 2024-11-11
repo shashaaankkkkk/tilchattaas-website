@@ -160,8 +160,8 @@ const Home = () => {
                             </button>
                         </div>
 
-                        <div className="hidden lg:flex lg:ml-16 lg:items-center lg:justify-center lg:space-x-10 xl:space-x-16">
-                            {['Features', 'Pricing', 'Automation'].map((item, index) => (
+                        <div className="hidden lg:flex lg:ml-16 lg:items-center lg:justify-center lg:space-x-10 xl:space-x-8">
+                            {['⚙️ Jugaadu Techies','🇮🇳 Desi Solutions','📈 Kaise Karein?','🌟 Kahaniyaan','🙏 Namaste!'].map((item, index) => (
                                 <motion.a
                                     key={item}
                                     href="#"
@@ -246,7 +246,7 @@ const Home = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.6 }}
                         >
-                            Smart email campaign builder, made for Developers
+                           Tech Teams Faster Than Mom's WhatsApp Forwards! 🤳🏻
                         </motion.h1>
                         <motion.p 
                             className="mt-5 text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl font-pj"
@@ -254,7 +254,7 @@ const Home = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.8 }}
                         >
-                            Turn your Start-Up into profitable
+                          Turn your startup from zero to hero with our desi 
                             <motion.span 
                                 className="relative inline-flex"
                                 animate={{ 
@@ -267,8 +267,9 @@ const Home = () => {
                                     repeatType: "reverse"
                                 }}
                             >
+                            
                                 <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] blur-lg opacity-30"></span>
-                                <span className="relative"> business </span>
+                                <span className="relative">tech heroes 💪</span>
                             </motion.span>
                         </motion.p>
 
@@ -285,7 +286,7 @@ const Home = () => {
                                 whileHover="hover"
                                 whileTap="tap"
                             >
-                                Get more customers
+                                Find Your Solution!
                             </motion.a>
 
                             <motion.a
@@ -298,7 +299,7 @@ const Home = () => {
                                 <svg className="w-5 h-5 mr-2" viewBox="0 0 18 18" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.18 13.426C6.859 14.392 5 13.448 5 11.811V5.439C5 3.802 6.859 2.858 8.18 3.824L12.54 7.01C13.634 7.809 13.634 9.441 12.54 10.24L8.18 13.426Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                Watch free demo
+                                Get a Meeting schedule
                             </motion.a>
                         </motion.div>
 
@@ -308,7 +309,8 @@ const Home = () => {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 1.5 }}
                         >
-                            60 Days free trial · No credit card required
+                          
+                           *(But we actually deliver, unlike your cousin who promised to "build an app")* 😉
                         </motion.p>
                     </motion.div>
                 </div>

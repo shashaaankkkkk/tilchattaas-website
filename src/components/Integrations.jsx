@@ -88,18 +88,22 @@ const Integration = () => {
                         <motion.h2 
                             className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
                         >
-                            Your tech ecosystem in motion.
+                            Your Tech Universe, Our Responsibility
                         </motion.h2>
                         
                         <motion.p 
                             className="mt-6 text-base text-gray-600"
                         >
-                            Watch as cloud services, development tools, and integrations orbit 
-                            and interact in perfect harmony. Each element plays its unique role 
-                            in your digital infrastructure, creating a dynamic and scalable 
-                            technology universe.
+                           Like how Sharma ji's son handles everything, we'll handle your complete tech ecosystem! 
+                           
                         </motion.p>
-
+                        <motion.p 
+                            className="mt-6 text-base text-gray-600"
+                        >
+                           *(But we actually deliver, unlike your cousin who promised to "build an app")* 😉
+                           
+                        </motion.p>
+                       
                         <motion.a
                             href="#"
                             className="inline-flex items-center justify-center px-8 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md mt-9 hover:bg-blue-700 focus:bg-blue-700"

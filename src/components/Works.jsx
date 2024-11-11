@@ -42,18 +42,21 @@ const HowItWorks = () => {
     const steps = [
         {
             number: 1,
-            title: "Create a free account",
-            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+            title: "Idea Batao",
+            description: "Kuch aisa chahiye jo market mein dhoom macha de!",
+            secondline:" Our tech architects will turn your jugaad into jadoo"
         },
         {
             number: 2,
-            title: "Build your website",
-            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+            title: "Team Pao",
+            description: "Faster than ordering biryani",
+            secondline:"No hiring stress, no rona-dhona"
         },
         {
             number: 3,
-            title: "Release & Launch",
-            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+            title: "Growth Dekho",
+            description: "Isse achha to Sharma ji ka beta bhi nahi bana pata",
+            secondline:"Success guaranteed or chai on us!"
         }
     ];
 
@@ -82,7 +85,7 @@ const HowItWorks = () => {
                         How does it work?
                     </h2>
                     <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-                        Follow these three simple steps to get started with our platform.
+                    Three Steps, No Drama:
                     </p>
                 </motion.div>
 
@@ -144,6 +147,11 @@ const HowItWorks = () => {
                                     }`}>
                                         {step.description}
                                     </p>
+                                    <p className={`mt-4 text-base ${
+                                        currentStep >= index ? 'text-gray-600' : 'text-gray-400'
+                                    }`}>
+                                        {step.secondline}
+                                    </p>
                                 </motion.div>
                             </motion.div>
                         ))}
@@ -153,5 +161,6 @@ const HowItWorks = () => {
         </section>
     );
 };
+
 
 export default HowItWorks;
